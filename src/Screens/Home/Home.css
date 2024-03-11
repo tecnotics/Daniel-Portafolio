@@ -3,8 +3,9 @@
 }
 
 .fondo-box {
-  background-color: var(--bg-color) !important;
-  background-image: url("../../assets/Resources/Recurso 29lineas.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
+  background-color: transparent;
+}
+
+.title {
+  font-weight: bold;
 }

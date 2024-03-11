@@ -14,7 +14,7 @@ function Navbar() {
             </NavLink>
           </div>
           <div className="menu">
-            <NavLink to="/productos" className="frame">
+            <NavLink to="/AboutMe" className="frame">
               <i className="ri-user-smile-line"></i>
               <p className="li-mobile-p">Sobre Mi</p>
             </NavLink>

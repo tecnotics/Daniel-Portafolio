@@ -13,6 +13,7 @@ import Tecnotics from "../../assets/Images/Tecnotics.png";
 import Afw from "../../assets/Images/AFW.png";
 import Eng from "../../assets/Images/EnigLogic.png";
 
+
 const proyectos = [
   {
     id: 1,
@@ -21,7 +22,6 @@ const proyectos = [
       "Pagina Web completa para la empresa Tecnotics, desarrollada en React, MUI, Node",
     imagen: Tecnotics,
     enlaceProyecto: "https://tecnotics.com/",
-    enlaceCodigo: "https://github.com/tecnotics/TecnoTics",
   },
   {
     id: 2,
@@ -29,7 +29,6 @@ const proyectos = [
     descripcion: "Aplicativo web desarrollado en React, MUI, Node y Mongo DB",
     imagen: Afw,
     enlaceProyecto: "https://appsfortheworld.com/",
-    enlaceCodigo: "https://github.com/tecnotics/APPS-FOR-THE-WORLD-FRONT-END",
   },
   {
     id: 3,
@@ -37,7 +36,6 @@ const proyectos = [
     descripcion: "ERP y sistema de gestion desarrollado en React",
     imagen: Eng,
     enlaceProyecto: "https://samn.netlify.app/",
-    enlaceCodigo: "https://github.com/SamuelVasquezGonzalez/SA-MN-Front",
   },
 ];
 
@@ -62,6 +60,7 @@ function MyWorks() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+          fontWeight: "bold",
         }}
       >
         Proyectos Significativos
@@ -82,12 +81,14 @@ function MyWorks() {
               <CardContent
                 sx={{
                   backgroundColor: "var(--bg-color)",
+                  height: "60px",
                 }}
               >
                 <Typography
                   gutterBottom
                   variant="h5"
                   component="div"
+                  fontWeight="bold"
                   sx={{
                     color: "var(--text-color)",
                   }}
@@ -114,15 +115,11 @@ function MyWorks() {
                   size="small"
                   href={proyecto.enlaceProyecto}
                   target="_blank"
+                  sx={{
+                    backgroundColor: "var(--link-color)",
+                  }}
                 >
                   Ver Proyecto
-                </Button>
-                <Button
-                  size="small"
-                  href={proyecto.enlaceCodigo}
-                  target="_blank"
-                >
-                  Código Fuente
                 </Button>
               </CardActions>
             </HoverCard>
