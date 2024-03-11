@@ -1,0 +1,10 @@
+.fondo-paper {
+  background-color: var(--bg-color) !important;
+}
+
+.fondo-box {
+  background-color: var(--bg-color) !important;
+  background-image: url("../../assets/Resources/Recurso 29lineas.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
