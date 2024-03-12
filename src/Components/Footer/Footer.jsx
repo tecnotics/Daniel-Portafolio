@@ -15,9 +15,9 @@ function Footer() {
         alignItems: "center",
         justifyContent: "center",
         padding: "20px",
-        backgroundColor: "var(--bg-color)", // A light grey background
-        color: "var(--text-color)", // Darker text color for contrast
-        borderTop: "1px solid var(--bg-color)", // A subtle top border
+        backgroundColor: "var(--bg-color)",
+        color: "var(--text-color)", 
+        borderTop: "1px solid var(--bg-color)", 
       }}
     >
       <Grid container spacing={2} justifyContent="center">
